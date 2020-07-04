@@ -31,16 +31,20 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
 
     <string-array name="helpLinks">
 
-        <item>"https://ayayaq.github.io/DiscordBots-Help/#getting-your-bot"</item>
-        <item>"https://ayayaq.github.io/DiscordBots-Help/#keywords"</item>
-        <item>"https://ayayaq.github.io/DiscordBots-Help/#battery-optimization"</item>
+        <item>"https://ayayaq.github.io/DiscordBots-Help/"</item>
+        <item>"https://ayayaq.github.io/DiscordBots-Help/commands.html"</item>
+        <item>"https://ayayaq.github.io/DiscordBots-Help/keywords.html"</item>
+        <item>"https://ayayaq.github.io/DiscordBots-Help/creating.html"</item>
+        <item>"https://ayayaq.github.io/DiscordBots-Help/tutorial.html"</item>
 
     </string-array>
 
     <string-array name="tabs">
-        <item>Create Bot</item>
-        <item>Command Keywords</item>
-        <item>Optimizing</item>
+        <item>Help Home</item>
+        <item>Commands</item>
+        <item>Keywords</item>
+        <item>Creating Bot</item>
+        <item>Tutorials</item>
     </string-array>
 
     <string-array name="commandTypes">
@@ -62,7 +66,7 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
     </string-array>
 
     <string-array name="about">
-        <item>Version 1.7.1</item>
+        <item>Version 1.8</item>
         <item>Open source licenses</item>
     </string-array>
 
@@ -305,7 +309,7 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
   See the License for the specific language governing permissions and
   limitations under the License.
  </string>
-    <string name="switch_to_advanced">Switch to Advanced</string>
+
     <string name="choose_command_type">Choose Command Type</string>
     <string name="command">Command</string>
     <string name="example">!example</string>
