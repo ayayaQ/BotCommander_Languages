@@ -18,3 +18,6 @@ You should not translate the following strings / string arrays.
 • circle_transform
 
 • switch_to_advanced (deprecated string)
+
+• helpText
+
