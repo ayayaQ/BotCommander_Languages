@@ -36,6 +36,7 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
         <item>"https://ayayaq.github.io/DiscordBots-Help/keywords.html"</item>
         <item>"https://ayayaq.github.io/DiscordBots-Help/creating.html"</item>
         <item>"https://ayayaq.github.io/DiscordBots-Help/tutorial.html"</item>
+        <item>"https://ayayaq.github.io/DiscordBots-Help/webhooks.html"</item>
 
     </string-array>
 
@@ -45,6 +46,7 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
         <item>Keywords</item>
         <item>Creating Bot</item>
         <item>Tutorials</item>
+        <item>Webhooks</item>
     </string-array>
 
     <string-array name="commandTypes">
@@ -58,6 +60,11 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
 
     </string-array>
 
+    <string-array name="webhookTypes">
+        <item>Message</item>
+        <item>Embed</item>
+    </string-array>
+
     <string-array name="activities">
         <item>Playing</item>
         <item>Streaming</item>
@@ -66,7 +73,7 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
     </string-array>
 
     <string-array name="about">
-        <item>Version 1.8</item>
+        <item>Version 1.10</item>
         <item>Open source licenses</item>
     </string-array>
 
@@ -76,6 +83,8 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
         <item>CircleTransform</item>
         <item>gson</item>
         <item>Material Components for Android</item>
+        <item>recyclerview-animators</item>
+        <item>discord-webhooks</item>
     </string-array>
 
     <string-array name="themeListArray">
@@ -310,6 +319,22 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
   limitations under the License.
  </string>
 
+    <string name="wasabeef">
+        Copyright 2018 Wasabeef\n\n
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at\n\n
+
+   http://www.apache.org/licenses/LICENSE-2.0\n\n
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+    </string>
+
     <string name="choose_command_type">Choose Command Type</string>
     <string name="command">Command</string>
     <string name="example">!example</string>
@@ -371,7 +396,7 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
     <string name="text_mute">Text Mute</string>
     <string name="home_hint">Commands ADDED or EDITED after hosting won\'t work until you REHOST</string>
     <string name="connecting">Status: Connecting</string>
-    <string name="swipe_right_to_delete_commands">Swipe right to delete commands.</string>
+    <string name="swipe_right_to_delete_commands">Swipe to delete commands.</string>
     <string name="hide">HIDE</string>
     <string name="assign_remove_role">Assign/Remove Role</string>
     <string name="role_name">Role Name</string>
@@ -419,7 +444,7 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
     <string name="tutorials">Tutorials</string>
     <string name="more_help">More Help</string>
     <string name="home_message">Here is where you put your bot token given by Discord to host the bot. Commands must be added before hosting and changes to commands while hosting will only be seen when the bot is rehosted.</string>
-    <string name="error_occured">Error occurred</string>
+    <string name="error_occured">Please enable Server Members Intent</string>
     <string name="something_error">Something happened loading bot, bot may still be up</string>
     <string name="channel_message_out">Channel Message: </string>
     <string name="pm_out">PM: </string>
@@ -446,12 +471,13 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
     <string name="load_configuration_hint">Loading a configuration will not save your current configuration. All changes in the currently loaded configuration will be lost. Do you want to load this configuration?</string>
     <string name="load">Load</string>
     <string name="command_list">Command List</string>
-    <string name="command_list_hint">This is the command list, press the floating action button to add a command. When commands are added you can edit by pressing them, and delete them by swiping them right.</string>
+    <string name="command_list_hint">This is the command list, press the floating action button to add a command. When commands are added you can edit by pressing them, and delete them by swiping them.</string>
     <string name="command_count">Commands: </string>
     <string name="choose_configuration_name">Choose configuration name</string>
     <string name="no_commands_hint">No commands to make configuration.</string>
     <string name="status_error">Can\'t have a status of no length!</string>
     <string name="set">Set</string>
+    <string name="privacy_policy">https://ayayaq.github.io/DiscordBots-Help/privacypolicy.html</string>
 
 
 </resources>
