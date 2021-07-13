@@ -21,3 +21,4 @@ You should not translate the following strings / string arrays.
 
 • helpText
 
+• privacy_policy
