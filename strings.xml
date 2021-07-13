@@ -478,6 +478,7 @@ limitations under the License.
     <string name="status_error">Can\'t have a status of no length!</string>
     <string name="set">Set</string>
     <string name="privacy_policy">https://ayayaq.github.io/DiscordBots-Help/privacypolicy.html</string>
+    <string name="invite">Invite</string>
 
 
 </resources>
