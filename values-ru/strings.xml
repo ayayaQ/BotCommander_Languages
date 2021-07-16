@@ -1,0 +1,484 @@
+<resources>
+    <string name="app_name">Bot Commander</string>
+
+    <string-array name="helpTitle">
+
+        <item>"Creating the Bot"</item>
+        <item>"Command Keywords"</item>
+        <item>"Optimizing Bot Usage"</item>
+
+    </string-array>
+
+    <string-array name="helpText">
+
+        <item>"Creating a bot in discord is quite an easy process. First you need to go to\n\nhttps://discordapp.com/developers/applications/\n\nand click 'New Application'.\n\nAfter you give your bot a name, you will be able to change your bot profile image, bot descriptions and many more details.\n\nClick 'Bot' on the left sidebar. Then click 'Add Bot'.\n\nNow you can get your bot's token by using the 'Click to Reveal Token' button under your bot username or simply click 'Copy' and token will be copied to your clipboard directly."</item>
+        <item>"Keywords are used to create more dynamic messages for your commands. Here is a list of some of the available ones. More information will show you a full list.\n\n$name (compatible with all, except member leave and ban) - This mentions the user who triggered the command\n\n$channel - Adds the channel name to the message\n(Only compatible with type: Channel Message Received)\n\n$server - Adds the server name to the message\n(Not compatible with type: Private Message Received)\n\n$message - This adds the content of the message sent.\n(Not compatible with types: User Ban, Leave, Join, or Reaction Add)\n\n$rollnum(min,max) - This generates a random number where you replace min with the smallest number and max with the largest one.
+
+$date (Compatible with all) - The current date.
+
+$avatar (Compatible with all, except leave and ban) - The current avatar of the user who called the command.
+
+$defaultAvatar (Compatible with all, except leave and ban) - The default avatar of the user.
+
+$memberCount (Not compatible with pm received) - Gives the number of members currently in the server.
+
+$serverCreateTime (Not compatible with pm received) - Gives the time the server was created."</item>
+
+        More keywords available on help site.
+        <item>"It is important to know that the bot must be reset for command and status changes to take place.\n\nBy default when the app is in sleep mode the bot will not respond 100% of the time. If you want to allow the bot to function as intended while dozing you must disable battery optimization for the app.\n\n1. Go to your Settings app\n\n2. Find the app.\n\n3. Change the battery setting from 'Optimize' to 'Don't Optimize'\n\n*Steps may vary for different phones."</item>
+
+    </string-array>
+
+    <string-array name="helpLinks">
+
+        <item>"https://ayayaq.github.io/DiscordBots-Help/"</item>
+        <item>"https://ayayaq.github.io/DiscordBots-Help/commands.html"</item>
+        <item>"https://ayayaq.github.io/DiscordBots-Help/keywords.html"</item>
+        <item>"https://ayayaq.github.io/DiscordBots-Help/creating.html"</item>
+        <item>"https://ayayaq.github.io/DiscordBots-Help/tutorial.html"</item>
+        <item>"https://ayayaq.github.io/DiscordBots-Help/webhooks.html"</item>
+
+    </string-array>
+
+    <string-array name="tabs">
+        <item>Help Home</item>
+        <item>Commands</item>
+        <item>Keywords</item>
+        <item>Creating Bot</item>
+        <item>Tutorials</item>
+        <item>Webhooks</item>
+    </string-array>
+
+    <string-array name="commandTypes">
+
+        <item>Message Receive</item>
+        <item>Private Message</item>
+        <item>Member Join</item>
+        <item>Member Leave</item>
+        <item>Member Ban</item>
+        <item>Reaction Add</item>
+
+    </string-array>
+
+    <string-array name="webhookTypes">
+        <item>Message</item>
+        <item>Embed</item>
+    </string-array>
+
+    <string-array name="activities">
+        <item>Playing</item>
+        <item>Streaming</item>
+        <item>Listening</item>
+        <item>Watching</item>
+    </string-array>
+
+    <string-array name="about">
+        <item>Version 1.10</item>
+        <item>Open source licenses</item>
+    </string-array>
+
+    <string-array name="opensource">
+        <item>JDA</item>
+        <item>Picasso</item>
+        <item>CircleTransform</item>
+        <item>gson</item>
+        <item>Material Components for Android</item>
+        <item>recyclerview-animators</item>
+        <item>discord-webhooks</item>
+    </string-array>
+
+    <string-array name="themeListArray">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Set by system</item>
+    </string-array>
+
+    <string-array name="themeEntryArray">
+        <item>light</item>
+        <item>dark</item>
+        <item>default</item>
+    </string-array>
+
+    <string name="apache_2_0">
+                                Apache License\n
+                           Version 2.0, January 2004\n
+                        http://www.apache.org/licenses/\n\n
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n
+
+   1. Definitions.\n\n
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.\n\n
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.\n\n
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.\n\n
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.\n\n
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.\n\n
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.\n\n
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).\n\n
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.\n\n
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."\n\n
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.\n\n
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.\n\n
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.\n\n
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:\n\n
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and\n\n
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and\n\n
+
+      © You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and\n\n
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.\n\n
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.\n\n
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.\n\n
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.\n\n
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.\n\n
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.\n\n
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.\n\n
+
+   END OF TERMS AND CONDITIONS\n\n
+
+   APPENDIX: How to apply the Apache License to your work.\n\n
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "{}"
+      replaced with your own identifying information. (Don\'t include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.\n\n
+
+   Copyright 2015-2019 Austin Keener, Michael Ritter, Florian Spieß, and the JDA contributors\n\n
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at\n\n
+
+       http://www.apache.org/licenses/LICENSE-2.0\n\n
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.</string>
+
+
+    <string name="circle_transform">
+ Copyright 2014 Julian Shen\n\n
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at\n\n
+
+      http://www.apache.org/licenses/LICENSE-2.0\n\n
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+ </string>
+
+    <string name="wasabeef">
+        Copyright 2018 Wasabeef\n\n
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at\n\n
+
+   http://www.apache.org/licenses/LICENSE-2.0\n\n
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+    </string>
+
+    <string name="choose_command_type">Choose Command Type</string>
+    <string name="command">Command</string>
+    <string name="example">!example</string>
+    <string name="command_description">Command Description</string>
+    <string name="sends_a_message">Sends a Message</string>
+    <string name="send_channel_message">Send Channel Message</string>
+    <string name="channel_message">Channel Message</string>
+    <string name="actions">Actions</string>
+    <string name="hello_world">Hello World</string>
+    <string name="send_private_message">Send Private Message</string>
+    <string name="private_message">Private Message</string>
+    <string name="hello_name">Hello $name</string>
+    <string name="for_more_information">More information</string>
+    <string name="status_offline">Status: Offline</string>
+    <string name="host">Host</string>
+    <string name="bot_token">Bot Token</string>
+    <string name="logout">Logout</string>
+    <string name="bot_avatar_when_hosting">Bot avatar when hosting.</string>
+    <string name="currently_hosting">Currently Hosting</string>
+    <string name="notif_action_stop">STOP</string>
+    <string name="logging_in">Logging in…</string>
+    <string name="invalid_token">Invalid Token</string>
+    <string name="invalid_args">```ERROR: MAX MUST BE LARGER THAN MIN.```</string>
+    <string name="invalid_nums">```ERROR: MIN AND/OR MAX NOT A NUMBER```</string>
+    <string name="undo">Undo</string>
+    <string name="config_remove">Configuration Removed</string>
+    <string name="command_remove">Command Removed</string>
+    <string name="config_saved">Command Configuration Saved</string>
+    <string name="message_require_for_action_channel">Message is required for action Channel Message</string>
+    <string name="message_require_for_action_private">Message is required for action Private Message</string>
+    <string name="command_required_for_type_channel">Command field is required for type Channel Message</string>
+    <string name="command_required_for_type_private">Command field is required for type Private Message</string>
+    <string name="command_required">Command description is required</string>
+    <string name="action_required">At least one action is required</string>
+    <string name="switch_to_basic">Switch to Basic</string>
+    <string name="enter_a_token">Please Enter A Token</string>
+    <string name="not_logged_in">Not Logged In</string>
+    <string name="hosting_already">Hosting Already</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="status_online">Status: Online</string>
+    <string name="phrase">Phrase (Can appear anywhere in a message)</string>
+    <string name="icon_of_command_type">Icon of command type</string>
+    <string name="configuration_name">Configuration Name</string>
+    <string name="status">Status</string>
+    <string name="save">Save</string>
+    <string name="save_button">Save button</string>
+    <string name="open_in_browser">Open in Browser</string>
+    <string name="home">Home</string>
+    <string name="commands">Commands</string>
+    <string name="help">Help</string>
+    <string name="bot_configurations">Bot Configurations</string>
+    <string name="set_status">Set Status</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="moderation">Moderation</string>
+    <string name="kick">Kick (requires mention after command)</string>
+    <string name="ban">Ban (requires mention after command)</string>
+    <string name="voice_mute">Voice Mute (requires mention after command)</string>
+    <string name="text_mute">Text Mute</string>
+    <string name="home_hint">Commands ADDED or EDITED after hosting won\'t work until you REHOST</string>
+    <string name="connecting">Status: Connecting</string>
+    <string name="swipe_right_to_delete_commands">Swipe to delete commands.</string>
+    <string name="hide">HIDE</string>
+    <string name="assign_remove_role">Assign/Remove Role</string>
+    <string name="role_name">Role Name</string>
+    <string name="send_channel_message_embed">Send Channel Message Embed</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="footer">Footer</string>
+    <string name="image_url">Image URL</string>
+    <string name="thumbnail_url">Thumbnail URL</string>
+    <string name="send_private_message_embed">Send Private Message Embed</string>
+    <string name="react_to_received_message">React to received message.</string>
+    <string name="emote">Emote</string>
+    <string name="requires_role">Requires Role</string>
+    <string name="send_in_specific_channel">Send in specific channel</string>
+    <string name="channel_name">Channel Name</string>
+    <string name="ignore_error_messages">Ignore error messages</string>
+    <string name="require_specific_message_id">Require specific message ID</string>
+    <string name="message_id">Message ID</string>
+    <string name="nsfw_only">NSFW only</string>
+    <string name="_1_99">1-99</string>
+    <string name="delete_x_messages">Delete X messages</string>
+    <string name="delete_command_message_after">Delete command message after</string>
+    <string name="word1_word2_word3">word1|word2|word3</string>
+    <string name="delete_if_contains">Delete if contains</string>
+    <string name="response_error_code">Response Error Code </string>
+    <string name="requires_role_error">requires role: </string>
+    <string name="no_user_mentioned">```No user mentioned.```</string>
+    <string name="no_kick_perms">```You don\'t have kick permissions.```</string>
+    <string name="no_ban_perms">```You don\'t have ban permissions.```</string>
+    <string name="no_voice_perms">```You don\'t have voice mute permissions```</string>
+    <string name="invalid_image_url">```Invalid Image or Thumbnail URL```</string>
+    <string name="fatal_eval_error">```fatal error: $eval never ended with $halt```</string>
+    <string name="set_error">```set error </string>
+    <string name="set_usage_error">```Incorrect set usage```</string>
+    <string name="get_error">```get error </string>
+    <string name="get_usage_error">```Incorrect get usage```</string>
+    <string name="delete_x_requirement">Delete X value field must have a number of 0 to 99</string>
+    <string name="embed_requirement">Can\'t send empty embed</string>
+    <string name="go_back">Go Back?</string>
+    <string name="go_back_warn">Going back will remove any work done on this command.</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="help_message">Command types are what is done by a user to trigger the command.\nMessage Receive happens when a user sent a message in server.\nPrivate Message is that a private message was received by user.\nMember leave, join, and ban all happen when a user does one of those things.\nReaction Add is when a reaction is added by a user to a message in a server.\n\nCommand is what the user has to send for the bot to react to these types for the actions to occur.\n\nActions are what is done by the bot when the event is triggered by a user.</string>
+    <string name="ok">OK</string>
+    <string name="tutorials">Tutorials</string>
+    <string name="more_help">More Help</string>
+    <string name="home_message">Here is where you put your bot token given by Discord to host the bot. Commands must be added before hosting and changes to commands while hosting will only be seen when the bot is rehosted.</string>
+    <string name="error_occured">Please enable Server Members Intent</string>
+    <string name="something_error">Something happened loading bot, bot may still be up</string>
+    <string name="channel_message_out">Channel Message: </string>
+    <string name="pm_out">PM: </string>
+    <string name="kick_out">Kicks user.</string>
+    <string name="ban_out">Bans user.</string>
+    <string name="voice_out">Voice mutes user.</string>
+    <string name="role_assign_out">Role Assign/Remove: </string>
+    <string name="channel_embed_out">Sends Channel Embed.</string>
+    <string name="private_embed_out">Sends Private Embed.</string>
+    <string name="react_out">Reacts: </string>
+    <string name="role_require_out">Requires Role: </string>
+    <string name="specific_channel_out">Sends in channel: </string>
+    <string name="require_message_id_out">Requires message ID: </string>
+    <string name="delete_x_out">Deletes </string>
+    <string name="delete_x_message_out"> messages</string>
+    <string name="delete_command_after_out">Deletes command message after</string>
+    <string name="delete_contains_out">Deletes if contains:</string>
+    <string name="is_nsfw_out">Is NSFW</string>
+    <string name="output">Output</string>
+    <string name="member_ban">Member Ban</string>
+    <string name="member_join">Member Join</string>
+    <string name="member_leave">Member Leave</string>
+    <string name="load_configuration">Load Configuration?</string>
+    <string name="load_configuration_hint">Loading a configuration will not save your current configuration. All changes in the currently loaded configuration will be lost. Do you want to load this configuration?</string>
+    <string name="load">Load</string>
+    <string name="command_list">Command List</string>
+    <string name="command_list_hint">This is the command list, press the floating action button to add a command. When commands are added you can edit by pressing them, and delete them by swiping them.</string>
+    <string name="command_count">Commands: </string>
+    <string name="choose_configuration_name">Choose configuration name</string>
+    <string name="no_commands_hint">No commands to make configuration.</string>
+    <string name="status_error">Can\'t have a status of no length!</string>
+    <string name="set">Set</string>
+    <string name="privacy_policy">https://ayayaq.github.io/DiscordBots-Help/privacypolicy.html</string>
+    <string name="invite">Invite</string>
+
+
+</resources>
