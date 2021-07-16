@@ -1,34 +1,6 @@
 <resources>
     <string name="app_name">Bot Commander</string>
 
-    <string-array name="helpTitle">
-
-        <item>"Creating the Bot"</item>
-        <item>"Command Keywords"</item>
-        <item>"Optimizing Bot Usage"</item>
-
-    </string-array>
-
-    <string-array name="helpText">
-
-        <item>"Creating a bot in discord is quite an easy process. First you need to go to\n\nhttps://discordapp.com/developers/applications/\n\nand click 'New Application'.\n\nAfter you give your bot a name, you will be able to change your bot profile image, bot descriptions and many more details.\n\nClick 'Bot' on the left sidebar. Then click 'Add Bot'.\n\nNow you can get your bot's token by using the 'Click to Reveal Token' button under your bot username or simply click 'Copy' and token will be copied to your clipboard directly."</item>
-        <item>"Keywords are used to create more dynamic messages for your commands. Here is a list of some of the available ones. More information will show you a full list.\n\n$name (compatible with all, except member leave and ban) - This mentions the user who triggered the command\n\n$channel - Adds the channel name to the message\n(Only compatible with type: Channel Message Received)\n\n$server - Adds the server name to the message\n(Not compatible with type: Private Message Received)\n\n$message - This adds the content of the message sent.\n(Not compatible with types: User Ban, Leave, Join, or Reaction Add)\n\n$rollnum(min,max) - This generates a random number where you replace min with the smallest number and max with the largest one.
-
-$date (Compatible with all) - The current date.
-
-$avatar (Compatible with all, except leave and ban) - The current avatar of the user who called the command.
-
-$defaultAvatar (Compatible with all, except leave and ban) - The default avatar of the user.
-
-$memberCount (Not compatible with pm received) - Gives the number of members currently in the server.
-
-$serverCreateTime (Not compatible with pm received) - Gives the time the server was created."</item>
-
-        More keywords available on help site.
-        <item>"It is important to know that the bot must be reset for command and status changes to take place.\n\nBy default when the app is in sleep mode the bot will not respond 100% of the time. If you want to allow the bot to function as intended while dozing you must disable battery optimization for the app.\n\n1. Go to your Settings app\n\n2. Find the app.\n\n3. Change the battery setting from 'Optimize' to 'Don't Optimize'\n\n*Steps may vary for different phones."</item>
-
-    </string-array>
-
     <string-array name="helpLinks">
 
         <item>"https://ayayaq.github.io/DiscordBots-Help/"</item>
@@ -52,7 +24,7 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
     <string-array name="commandTypes">
 
         <item>Получить Сообщение</item>
-        <item>Приватное Сообщение</item>
+        <item>Личное Сообщение</item>
         <item>Заход Пользователя</item>
         <item>Выход Пользователя</item>
         <item>Бан Пользователя</item>
@@ -91,12 +63,6 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
         <item>Светлая</item>
         <item>Тёмная</item>
         <item>Как в Системе</item>
-    </string-array>
-
-    <string-array name="themeEntryArray">
-        <item>light</item>
-        <item>dark</item>
-        <item>default</item>
     </string-array>
 
     <string name="apache_2_0">
@@ -364,88 +330,86 @@ limitations under the License.
     <string name="command_remove">Комманда Удалена</string>
     <string name="config_saved">Конфигурация Сохранена</string>
     <string name="message_require_for_action_channel">Сообщение требуется для действия Сообщение</string>
-    <string name="message_require_for_action_private">Сообщение требуется для действия Приватного Сообщения</string>
+    <string name="message_require_for_action_private">Сообщение требуется для действия Личного Сообщения</string>
     <string name="command_required_for_type_channel">Поле команды обязательно для типа Сообщение</string>
-    <string name="command_required_for_type_private">Поле команды обязательно для типа Приватного Сообщения</string>
-    <string name="command_required">Требуется Описание Комманды</string>
+    <string name="command_required_for_type_private">Поле команды обязательно для типа Личного Сообщения</string>
     <string name="action_required">Хоть одно Действие Требуется</string>
-    <string name="switch_to_basic">Switch to Basic</string>
-    <string name="enter_a_token">Please Enter A Token</string>
-    <string name="not_logged_in">Not Logged In</string>
-    <string name="hosting_already">Hosting Already</string>
-    <string name="no_internet">No Internet Connection</string>
-    <string name="status_online">Status: Online</string>
-    <string name="phrase">Phrase (Can appear anywhere in a message)</string>
-    <string name="icon_of_command_type">Icon of command type</string>
-    <string name="configuration_name">Configuration Name</string>
-    <string name="status">Status</string>
-    <string name="save">Save</string>
-    <string name="save_button">Save button</string>
-    <string name="open_in_browser">Open in Browser</string>
-    <string name="home">Home</string>
-    <string name="commands">Commands</string>
-    <string name="help">Help</string>
-    <string name="bot_configurations">Bot Configurations</string>
-    <string name="set_status">Set Status</string>
-    <string name="settings">Settings</string>
-    <string name="about">About</string>
-    <string name="moderation">Moderation</string>
-    <string name="kick">Kick (requires mention after command)</string>
-    <string name="ban">Ban (requires mention after command)</string>
-    <string name="voice_mute">Voice Mute (requires mention after command)</string>
-    <string name="text_mute">Text Mute</string>
-    <string name="home_hint">Commands ADDED or EDITED after hosting won\'t work until you REHOST</string>
-    <string name="connecting">Status: Connecting</string>
-    <string name="swipe_right_to_delete_commands">Swipe to delete commands.</string>
-    <string name="hide">HIDE</string>
-    <string name="assign_remove_role">Assign/Remove Role</string>
-    <string name="role_name">Role Name</string>
-    <string name="send_channel_message_embed">Send Channel Message Embed</string>
-    <string name="title">Title</string>
-    <string name="description">Description</string>
-    <string name="footer">Footer</string>
-    <string name="image_url">Image URL</string>
-    <string name="thumbnail_url">Thumbnail URL</string>
-    <string name="send_private_message_embed">Send Private Message Embed</string>
-    <string name="react_to_received_message">React to received message.</string>
-    <string name="emote">Emote</string>
-    <string name="requires_role">Requires Role</string>
-    <string name="send_in_specific_channel">Send in specific channel</string>
-    <string name="channel_name">Channel Name</string>
-    <string name="ignore_error_messages">Ignore error messages</string>
-    <string name="require_specific_message_id">Require specific message ID</string>
-    <string name="message_id">Message ID</string>
-    <string name="nsfw_only">NSFW only</string>
+    <string name="enter_a_token">Введите Токен</string>
+    <string name="not_logged_in">Бот не Запущен</string>
+    <string name="hosting_already">Уже Запущен</string>
+    <string name="no_internet">Нет Интернета</string>
+    <string name="status_online">Статус: Онлайн</string>
+    <string name="phrase">Phrase (Может появится в разных местах)</string> # Don't know how to translate
+    <string name="icon_of_command_type">Icon of command type</string> # old
+    <string name="configuration_name">Название Конфигурации</string>
+    <string name="status">Статус</string>
+    <string name="save">Сохранить</string>
+    <string name="save_button">Кнопка сохранения</string>
+    <string name="open_in_browser">Открыть в Браузере</string>
+    <string name="home">Главная</string>
+    <string name="commands">Комманды</string>
+    <string name="help">Помощь</string>
+    <string name="bot_configurations">Конфигурация Ботов</string>
+    <string name="set_status">Сделать Статус</string>
+    <string name="settings">Настройки</string>
+    <string name="about">О Приложении</string>
+    <string name="moderation">Модерация</string>
+    <string name="kick">Кик (нужно уведомление после комманды)</string>
+    <string name="ban">Бан (нужно уведомление после комманды)</string>
+    <string name="voice_mute">Голосовой Мут (нужно уведомление после комманды)</string>
+    <string name="text_mute">Текстовый Мут</string>
+    <string name="home_hint">Комманды ДОБАВЛЕННЫЕ или ИЗМЕНЁННЫЕ не будут работать до того как вы ПЕРЕЗАПУСТИТЕ</string>
+    <string name="connecting">Статус: Подключение</string>
+    <string name="swipe_right_to_delete_commands">Проведите что бы удалить комманду.</string>
+    <string name="hide">СКРЫТЬ</string>
+    <string name="assign_remove_role">Добавить/Убрать Роль</string>
+    <string name="role_name">Название Роли</string>
+    <string name="send_channel_message_embed">Отправить Эмбед Сообщение в Канал</string>
+    <string name="title">Название</string>
+    <string name="description">Описание</string>
+    <string name="footer">Футер</string>
+    <string name="image_url">URL Изображение</string>
+    <string name="thumbnail_url">Верхнее URL Изображение</string> # Don't know to propper translate
+    <string name="send_private_message_embed">Отправить Личное Эмбед Сообщение</string>
+    <string name="react_to_received_message">Добавьте Реакцию на Полученное Сообщение</string>
+    <string name="emote">Реакция</string>
+    <string name="requires_role">Нужна Роль</string>
+    <string name="send_in_specific_channel">Отправить в Конкретный Канал</string>
+    <string name="channel_name">Название</string>
+    <string name="ignore_error_messages">Игнорировать Ошибки</string>
+    <string name="require_specific_message_id">Нужен Конкретный ID Сообщения</string>
+    <string name="message_id">ID Сообщения</string>
+    <string name="nsfw_only">Только NSFW</string>
     <string name="_1_99">1-99</string>
-    <string name="delete_x_messages">Delete X messages</string>
-    <string name="delete_command_message_after">Delete command message after</string>
-    <string name="word1_word2_word3">word1|word2|word3</string>
-    <string name="delete_if_contains">Delete if contains</string>
+    <string name="delete_x_messages">Удалить X сообщений</string>
+    <string name="delete_command_message_after">Удалить комманду после</string>
+    <string name="word1_word2_word3">слово1|слово2|слово3</string>
+    <string name="delete_if_contains">Удалить если содержит</string>
     <string name="response_error_code">Response Error Code </string>
-    <string name="requires_role_error">requires role: </string>
-    <string name="no_user_mentioned">```No user mentioned.```</string>
-    <string name="no_kick_perms">```You don\'t have kick permissions.```</string>
-    <string name="no_ban_perms">```You don\'t have ban permissions.```</string>
-    <string name="no_voice_perms">```You don\'t have voice mute permissions```</string>
-    <string name="invalid_image_url">```Invalid Image or Thumbnail URL```</string>
-    <string name="fatal_eval_error">```fatal error: $eval never ended with $halt```</string>
-    <string name="set_error">```set error </string>
-    <string name="set_usage_error">```Incorrect set usage```</string>
-    <string name="get_error">```get error </string>
-    <string name="get_usage_error">```Incorrect get usage```</string>
-    <string name="delete_x_requirement">Delete X value field must have a number of 0 to 99</string>
-    <string name="embed_requirement">Can\'t send empty embed</string>
-    <string name="go_back">Go Back?</string>
-    <string name="go_back_warn">Going back will remove any work done on this command.</string>
-    <string name="confirm">Confirm</string>
-    <string name="cancel">Cancel</string>
-    <string name="help_message">Command types are what is done by a user to trigger the command.\nMessage Receive happens when a user sent a message in server.\nPrivate Message is that a private message was received by user.\nMember leave, join, and ban all happen when a user does one of those things.\nReaction Add is when a reaction is added by a user to a message in a server.\n\nCommand is what the user has to send for the bot to react to these types for the actions to occur.\n\nActions are what is done by the bot when the event is triggered by a user.</string>
-    <string name="ok">OK</string>
-    <string name="tutorials">Tutorials</string>
-    <string name="more_help">More Help</string>
-    <string name="home_message">Here is where you put your bot token given by Discord to host the bot. Commands must be added before hosting and changes to commands while hosting will only be seen when the bot is rehosted.</string>
-    <string name="error_occured">Please enable Server Members Intent</string>
-    <string name="something_error">Something happened loading bot, bot may still be up</string>
+    <string name="requires_role_error">Нужна роль: </string>
+    <string name="no_user_mentioned">```Не какой пользователь не был уведомлён.```</string>
+    <string name="no_kick_perms">```У вас нету прав на кик.```</string>
+    <string name="no_ban_perms">```У вас нету прав на бан.```</string>
+    <string name="no_voice_perms">```У вас нету прав на голосовой мут.```</string>
+    <string name="invalid_image_url">```Неправильная URL Картинка или Верхнее URL Изображение```</string>
+    <string name="fatal_eval_error">```Фатальная ошибка: $eval никогда не заканчивается с $halt```</string>
+    ################################################################### <string name="set_error">```set error </string>
+    ################################################################### <string name="set_usage_error">```Incorrect set usage```</string>
+    ################################################################### <string name="get_error">```get error </string>
+    ################################################################### <string name="get_usage_error">```Incorrect get usage```</string>
+    <string name="delete_x_requirement">Число X должно состоять из цифр от 1 до 99</string>
+    <string name="embed_requirement">Невозможно отправить пустое эмбед сообщение</string>
+    <string name="go_back">Вернуться Назад?</string>
+    <string name="go_back_warn">Возращаясь назад отменяет все изменения.</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="cancel">Отменить</string>
+    ################################################################### <string name="help_message">Command types are what is done by a user to trigger the command.\nMessage Receive happens when a user sent a message in server.\nPrivate Message is that a private message was received by user.\nMember leave, join, and ban all happen when a user does one of those things.\nReaction Add is when a reaction is added by a user to a message in a server.\n\nCommand is what the user has to send for the bot to react to these types for the actions to occur.\n\nActions are what is done by the bot when the event is triggered by a user.</string>
+    <string name="ok">ОК</string>
+    <string name="tutorials">Туториалы</string>
+    <string name="more_help">Больше помощи</string>
+    ################################################################### <string name="home_message">Here is where you put your bot token given by Discord to host the bot. Commands must be added before hosting and changes to commands while hosting will only be seen when the bot is rehosted.</string>
+    <string name="error_occured">Включи Server Members Intent</string>
+    <string name="something_error">Что то произошло при загрузке бота, но он может быть запущен</string>
     <string name="channel_message_out">Channel Message: </string>
     <string name="pm_out">PM: </string>
     <string name="kick_out">Kicks user.</string>
