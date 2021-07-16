@@ -41,39 +41,39 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
     </string-array>
 
     <string-array name="tabs">
-        <item>Help Home</item>
-        <item>Commands</item>
-        <item>Keywords</item>
-        <item>Creating Bot</item>
-        <item>Tutorials</item>
-        <item>Webhooks</item>
+        <item>Главная Помощь</item>
+        <item>Комманды</item>
+        <item>Вспомогательные Слова</item>
+        <item>Создание Бота</item>
+        <item>Туториалы</item>
+        <item>Вебхуки</item>
     </string-array>
 
     <string-array name="commandTypes">
 
-        <item>Message Receive</item>
-        <item>Private Message</item>
-        <item>Member Join</item>
-        <item>Member Leave</item>
-        <item>Member Ban</item>
-        <item>Reaction Add</item>
+        <item>Получить Сообщение</item>
+        <item>Приватное Сообщение</item>
+        <item>Заход Пользователя</item>
+        <item>Выход Пользователя</item>
+        <item>Бан Пользователя</item>
+        <item>Добавление Реакции</item>
 
     </string-array>
 
     <string-array name="webhookTypes">
-        <item>Message</item>
-        <item>Embed</item>
+        <item>Сообщение</item>
+        <item>Эмбед</item>
     </string-array>
 
     <string-array name="activities">
-        <item>Playing</item>
-        <item>Streaming</item>
-        <item>Listening</item>
-        <item>Watching</item>
+        <item>Играет в</item>
+        <item>Стримит</item>
+        <item>Слушает</item>
+        <item>Смотрит</item>
     </string-array>
 
     <string-array name="about">
-        <item>Version 1.10</item>
+        <item>Версия 1.10</item>
         <item>Open source licenses</item>
     </string-array>
 
@@ -88,9 +88,9 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
     </string-array>
 
     <string-array name="themeListArray">
-        <item>Light</item>
-        <item>Dark</item>
-        <item>Set by system</item>
+        <item>Светлая</item>
+        <item>Тёмная</item>
+        <item>Как в Системе</item>
     </string-array>
 
     <string-array name="themeEntryArray">
@@ -335,40 +335,40 @@ See the License for the specific language governing permissions and
 limitations under the License.
     </string>
 
-    <string name="choose_command_type">Choose Command Type</string>
-    <string name="command">Command</string>
-    <string name="example">!example</string>
-    <string name="command_description">Command Description</string>
-    <string name="sends_a_message">Sends a Message</string>
-    <string name="send_channel_message">Send Channel Message</string>
-    <string name="channel_message">Channel Message</string>
-    <string name="actions">Actions</string>
-    <string name="hello_world">Hello World</string>
-    <string name="send_private_message">Send Private Message</string>
-    <string name="private_message">Private Message</string>
-    <string name="hello_name">Hello $name</string>
-    <string name="for_more_information">More information</string>
-    <string name="status_offline">Status: Offline</string>
-    <string name="host">Host</string>
-    <string name="bot_token">Bot Token</string>
-    <string name="logout">Logout</string>
-    <string name="bot_avatar_when_hosting">Bot avatar when hosting.</string>
-    <string name="currently_hosting">Currently Hosting</string>
-    <string name="notif_action_stop">STOP</string>
-    <string name="logging_in">Logging in…</string>
-    <string name="invalid_token">Invalid Token</string>
-    <string name="invalid_args">```ERROR: MAX MUST BE LARGER THAN MIN.```</string>
-    <string name="invalid_nums">```ERROR: MIN AND/OR MAX NOT A NUMBER```</string>
-    <string name="undo">Undo</string>
-    <string name="config_remove">Configuration Removed</string>
-    <string name="command_remove">Command Removed</string>
-    <string name="config_saved">Command Configuration Saved</string>
-    <string name="message_require_for_action_channel">Message is required for action Channel Message</string>
-    <string name="message_require_for_action_private">Message is required for action Private Message</string>
-    <string name="command_required_for_type_channel">Command field is required for type Channel Message</string>
-    <string name="command_required_for_type_private">Command field is required for type Private Message</string>
-    <string name="command_required">Command description is required</string>
-    <string name="action_required">At least one action is required</string>
+    <string name="choose_command_type">Выбирите Тип Комманды</string>
+    <string name="command">Комманда</string>
+    <string name="example">!пример</string>
+    <string name="command_description">Оиспание Комманды</string>
+    <string name="sends_a_message">Отправит Сообщение</string>
+    <string name="send_channel_message">Отправить Сообщение в Канал</string>
+    <string name="channel_message">Сообщение</string>
+    <string name="actions">Действия</string>
+    <string name="hello_world">Привет Мир</string>
+    <string name="send_private_message">Отправить Личное Сообщение</string>
+    <string name="private_message">Личное Сообщение</string>
+    <string name="hello_name">Привет $name</string>
+    <string name="for_more_information">Больше Информации</string>
+    <string name="status_offline">Статус: Оффлайн</string>
+    <string name="host">Запустить</string>
+    <string name="bot_token">Токен Бота</string>
+    <string name="logout">Выход</string>
+    <string name="bot_avatar_when_hosting">Картинка Бота при Запуске.</string>
+    <string name="currently_hosting">Запущен</string>
+    <string name="notif_action_stop">СТОП</string>
+    <string name="logging_in">Вход в систему…</string>
+    <string name="invalid_token">Неправильный Токен</string>
+    <string name="invalid_args">```ОШИБКА: МАКС ДОЛЖЕН БЫТЬ БОЛЬШЕ МИН.```</string>
+    <string name="invalid_nums">```ОШИБКА: МИН И/ИЛИ МАКС НЕ ЦИФРА```</string>
+    <string name="undo">Возвратить</string>
+    <string name="config_remove">Конфигурация Удалена</string>
+    <string name="command_remove">Комманда Удалена</string>
+    <string name="config_saved">Конфигурация Сохранена</string>
+    <string name="message_require_for_action_channel">Сообщение требуется для действия Сообщение</string>
+    <string name="message_require_for_action_private">Сообщение требуется для действия Приватного Сообщения</string>
+    <string name="command_required_for_type_channel">Поле команды обязательно для типа Сообщение</string>
+    <string name="command_required_for_type_private">Поле команды обязательно для типа Приватного Сообщения</string>
+    <string name="command_required">Требуется Описание Комманды</string>
+    <string name="action_required">Хоть одно Действие Требуется</string>
     <string name="switch_to_basic">Switch to Basic</string>
     <string name="enter_a_token">Please Enter A Token</string>
     <string name="not_logged_in">Not Logged In</string>
