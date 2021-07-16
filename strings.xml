@@ -1,34 +1,6 @@
 <resources>
     <string name="app_name">Bot Commander</string>
 
-    <string-array name="helpTitle">
-
-        <item>"Creating the Bot"</item>
-        <item>"Command Keywords"</item>
-        <item>"Optimizing Bot Usage"</item>
-
-    </string-array>
-
-    <string-array name="helpText">
-
-        <item>"Creating a bot in discord is quite an easy process. First you need to go to\n\nhttps://discordapp.com/developers/applications/\n\nand click 'New Application'.\n\nAfter you give your bot a name, you will be able to change your bot profile image, bot descriptions and many more details.\n\nClick 'Bot' on the left sidebar. Then click 'Add Bot'.\n\nNow you can get your bot's token by using the 'Click to Reveal Token' button under your bot username or simply click 'Copy' and token will be copied to your clipboard directly."</item>
-        <item>"Keywords are used to create more dynamic messages for your commands. Here is a list of some of the available ones. More information will show you a full list.\n\n$name (compatible with all, except member leave and ban) - This mentions the user who triggered the command\n\n$channel - Adds the channel name to the message\n(Only compatible with type: Channel Message Received)\n\n$server - Adds the server name to the message\n(Not compatible with type: Private Message Received)\n\n$message - This adds the content of the message sent.\n(Not compatible with types: User Ban, Leave, Join, or Reaction Add)\n\n$rollnum(min,max) - This generates a random number where you replace min with the smallest number and max with the largest one.
-
-$date (Compatible with all) - The current date.
-
-$avatar (Compatible with all, except leave and ban) - The current avatar of the user who called the command.
-
-$defaultAvatar (Compatible with all, except leave and ban) - The default avatar of the user.
-
-$memberCount (Not compatible with pm received) - Gives the number of members currently in the server.
-
-$serverCreateTime (Not compatible with pm received) - Gives the time the server was created."</item>
-
-        More keywords available on help site.
-        <item>"It is important to know that the bot must be reset for command and status changes to take place.\n\nBy default when the app is in sleep mode the bot will not respond 100% of the time. If you want to allow the bot to function as intended while dozing you must disable battery optimization for the app.\n\n1. Go to your Settings app\n\n2. Find the app.\n\n3. Change the battery setting from 'Optimize' to 'Don't Optimize'\n\n*Steps may vary for different phones."</item>
-
-    </string-array>
-
     <string-array name="helpLinks">
 
         <item>"https://ayayaq.github.io/DiscordBots-Help/"</item>
@@ -93,11 +65,6 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
         <item>Set by system</item>
     </string-array>
 
-    <string-array name="themeEntryArray">
-        <item>light</item>
-        <item>dark</item>
-        <item>default</item>
-    </string-array>
 
     <string name="apache_2_0">
                                 Apache License\n
@@ -367,9 +334,7 @@ limitations under the License.
     <string name="message_require_for_action_private">Message is required for action Private Message</string>
     <string name="command_required_for_type_channel">Command field is required for type Channel Message</string>
     <string name="command_required_for_type_private">Command field is required for type Private Message</string>
-    <string name="command_required">Command description is required</string>
     <string name="action_required">At least one action is required</string>
-    <string name="switch_to_basic">Switch to Basic</string>
     <string name="enter_a_token">Please Enter A Token</string>
     <string name="not_logged_in">Not Logged In</string>
     <string name="hosting_already">Hosting Already</string>
@@ -422,18 +387,18 @@ limitations under the License.
     <string name="word1_word2_word3">word1|word2|word3</string>
     <string name="delete_if_contains">Delete if contains</string>
     <string name="response_error_code">Response Error Code </string>
-    <string name="requires_role_error">requires role: </string>
+    <string name="requires_role_error">Requires role: </string>
     <string name="no_user_mentioned">```No user mentioned.```</string>
     <string name="no_kick_perms">```You don\'t have kick permissions.```</string>
     <string name="no_ban_perms">```You don\'t have ban permissions.```</string>
-    <string name="no_voice_perms">```You don\'t have voice mute permissions```</string>
+    <string name="no_voice_perms">```You don\'t have voice mute permissions.```</string>
     <string name="invalid_image_url">```Invalid Image or Thumbnail URL```</string>
-    <string name="fatal_eval_error">```fatal error: $eval never ended with $halt```</string>
+    <string name="fatal_eval_error">```Fatal error: $eval never ended with $halt```</string>
     <string name="set_error">```set error </string>
     <string name="set_usage_error">```Incorrect set usage```</string>
     <string name="get_error">```get error </string>
     <string name="get_usage_error">```Incorrect get usage```</string>
-    <string name="delete_x_requirement">Delete X value field must have a number of 0 to 99</string>
+    <string name="delete_x_requirement">X value field must have a number of 1 to 99</string>
     <string name="embed_requirement">Can\'t send empty embed</string>
     <string name="go_back">Go Back?</string>
     <string name="go_back_warn">Going back will remove any work done on this command.</string>
