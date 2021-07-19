@@ -394,9 +394,9 @@ limitations under the License.
     <string name="no_voice_perms">```You don\'t have voice mute permissions.```</string>
     <string name="invalid_image_url">```Invalid Image or Thumbnail URL```</string>
     <string name="fatal_eval_error">```Fatal error: $eval never ended with $halt```</string>
-    <string name="set_error">```set error </string>
+    <string name="set_error">```Set error </string>
     <string name="set_usage_error">```Incorrect set usage```</string>
-    <string name="get_error">```get error </string>
+    <string name="get_error">```Get error </string>
     <string name="get_usage_error">```Incorrect get usage```</string>
     <string name="delete_x_requirement">X value field must have a number of 1 to 99</string>
     <string name="embed_requirement">Can\'t send empty embed</string>
