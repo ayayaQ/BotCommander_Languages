@@ -431,18 +431,18 @@ limitations under the License.
     <string name="member_ban">Бан Пользователя</string>
     <string name="member_join">Заход Пользователя</string>
     <string name="member_leave">Выход Пользователя</string>
-    <string name="load_configuration">Load Configuration?</string>
-    <string name="load_configuration_hint">Loading a configuration will not save your current configuration. All changes in the currently loaded configuration will be lost. Do you want to load this configuration?</string>
-    <string name="load">Load</string>
-    <string name="command_list">Command List</string>
-    <string name="command_list_hint">This is the command list, press the floating action button to add a command. When commands are added you can edit by pressing them, and delete them by swiping them.</string>
-    <string name="command_count">Commands: </string>
-    <string name="choose_configuration_name">Choose configuration name</string>
-    <string name="no_commands_hint">No commands to make configuration.</string>
-    <string name="status_error">Can\'t have a status of no length!</string>
+    <string name="load_configuration">Загрузить Конфигурацию?</string>
+    <string name="load_configuration_hint">Загружение Конфигурации не сохранит Текущию Конфигурацию. Все сохранения в этой конфигурацией будут удалены. Вы точно хотите загрузить эту конфигурацию?</string>
+    <string name="load">Загрузить</string>
+    <string name="command_list">Список комманд</string>
+    <string name="command_list_hint">Это список комманд, нажмите на пустое окно в действиях что бы добавить комманду. Когда комманды сделаны вы можете изменить их нажав на них, и удалить поведением.</string>
+    <string name="command_count">Комманд: </string>
+    <string name="choose_configuration_name">Выбирите имя конфигурации</string>
+    <string name="no_commands_hint">Нет комманд для создания конфигурации.</string>
+    <string name="status_error">Не возможно иметь статус без слов!</string>
     <string name="set">Set</string>
     <string name="privacy_policy">https://ayayaq.github.io/DiscordBots-Help/privacypolicy.html</string>
-    <string name="invite">Invite</string>
+    <string name="invite">Пригласить</string>
 
 
 </resources>
