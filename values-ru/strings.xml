@@ -339,8 +339,8 @@ limitations under the License.
     <string name="hosting_already">Уже Запущен</string>
     <string name="no_internet">Нет Интернета</string>
     <string name="status_online">Статус: Онлайн</string>
-    <string name="phrase">Phrase (Может появится в разных местах)</string> # Don't know how to translate
-    ################################################################### <string name="icon_of_command_type">Icon of command type</string>
+    <string name="phrase">Phrase (Может появится в разных местах)</string>
+    <string name="icon_of_command_type">Картинка типа комманды</string>
     <string name="configuration_name">Название Конфигурации</string>
     <string name="status">Статус</string>
     <string name="save">Сохранить</string>
@@ -369,7 +369,7 @@ limitations under the License.
     <string name="description">Описание</string>
     <string name="footer">Футер</string>
     <string name="image_url">URL Изображение</string>
-    <string name="thumbnail_url">Верхнее URL Изображение</string> # Don't know to propper translate
+    <string name="thumbnail_url">Верхнее URL Изображение</string>
     <string name="send_private_message_embed">Отправить Личное Эмбед Сообщение</string>
     <string name="react_to_received_message">Добавьте Реакцию на Полученное Сообщение</string>
     <string name="emote">Реакция</string>
@@ -403,11 +403,11 @@ limitations under the License.
     <string name="go_back_warn">Возращаясь назад отменяет все изменения.</string>
     <string name="confirm">Подтвердить</string>
     <string name="cancel">Отменить</string>
-    ################################################################### <string name="help_message">Command types are what is done by a user to trigger the command.\nMessage Receive happens when a user sent a message in server.\nPrivate Message is that a private message was received by user.\nMember leave, join, and ban all happen when a user does one of those things.\nReaction Add is when a reaction is added by a user to a message in a server.\n\nCommand is what the user has to send for the bot to react to these types for the actions to occur.\n\nActions are what is done by the bot when the event is triggered by a user.</string>
+    <string name="help_message">Типы комманд сделаны для пользователей для использования комманд.\nПолучить Сообщение происходит тогда, когда пользователь отправляет сообщение на сервере.\nЛичное Сообщение это сообщение в ЛС полученое от пользователя\nВыход, Заход и Бан Пользователя все происходит тогда, когда пользователь что то делает из этого.\nДобавление Реакции это тогда, когда пользователь ставит реакцию на сообщение на сервере.\n\nКомманда это то что пользователь должен отправить что бы среагировал бот на такие типы действий.\n\nДействия это то что сделано ботом когда действие среагировано пользователем.</string>
     <string name="ok">ОК</string>
     <string name="tutorials">Туториалы</string>
     <string name="more_help">Больше помощи</string>
-    ################################################################### <string name="home_message">Here is where you put your bot token given by Discord to host the bot. Commands must be added before hosting and changes to commands while hosting will only be seen when the bot is rehosted.</string>
+    # <string name="home_message">Here is where you put your bot token given by Discord to host the bot. Commands must be added before hosting and changes to commands while hosting will only be seen when the bot is rehosted.</string>
     <string name="error_occured">Включите Server Members Intent</string>
     <string name="something_error">Что то произошло при загрузке бота, но он может быть запущен</string>
     <string name="channel_message_out">Отправляет сообщение в канал: </string>
