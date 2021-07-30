@@ -407,7 +407,7 @@ limitations under the License.
     <string name="ok">ОК</string>
     <string name="tutorials">Туториалы</string>
     <string name="more_help">Больше помощи</string>
-    # <string name="home_message">Here is where you put your bot token given by Discord to host the bot. Commands must be added before hosting and changes to commands while hosting will only be seen when the bot is rehosted.</string>
+    # <string name="home_message">Здесь где вы вставляете токен бота который дан Дискордом для запуска бота. Комманды должны быть добавлены перед запуском и изменение комманд когда запущен только появятся когда бот будет перезапущен.</string>
     <string name="error_occured">Включите Server Members Intent</string>
     <string name="something_error">Что то произошло при загрузке бота, но он может быть запущен</string>
     <string name="channel_message_out">Отправляет сообщение в канал: </string>
