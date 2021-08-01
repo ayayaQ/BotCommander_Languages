@@ -404,7 +404,7 @@ limitations under the License.
     <string name="go_back_warn">Going back will remove any work done on this command.</string>
     <string name="confirm">Confirm</string>
     <string name="cancel">Cancel</string>
-    <string name="help_message">Command types are what is done by a user to trigger the command.\nMessage Receive happens when a user sent a message on the server.\nPrivate Message is that a private message was received by user.\nMember Leave, Join, and Ban all happen when a user does one of those things.\nReaction Add is when a reaction is added by a user to a message on the server.\n\nCommand is what the user has to send for the bot to react to these types for the actions to occur.\n\nActions are what is done by the bot when the event is triggered by a user.</string>
+    <string name="help_message">Command types are what is done by a user to trigger the command.\nMessage Receive happens when a user sends a message on the server.\nPrivate Message is that a private message was received by user.\nMember Leave, Join, and Ban all happen when a user does one of those things.\nReaction Add is when a reaction is added by a user to a message on the server.\n\nCommand is what the user has to send for the bot to react to these types for the actions to occur.\n\nActions are what is done by the bot when the event is triggered by a user.</string>
     <string name="ok">OK</string>
     <string name="tutorials">Tutorials</string>
     <string name="more_help">More Help</string>
