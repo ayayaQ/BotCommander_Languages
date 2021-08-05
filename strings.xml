@@ -64,7 +64,12 @@
         <item>Dark</item>
         <item>Set by system</item>
     </string-array>
-
+    
+    <string-array name="themeEntryArray">
+        <item>light</item>
+        <item>dark</item>
+        <item>default</item>
+    </string-array>
 
     <string name="apache_2_0">
                                 Apache License\n
