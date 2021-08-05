@@ -62,7 +62,7 @@
     <string-array name="themeListArray">
         <item>Светлая</item>
         <item>Тёмная</item>
-        <item>Как в Системе</item>
+        <item>Как в системе</item>
     </string-array>
 
     <string name="apache_2_0">
@@ -443,6 +443,26 @@ limitations under the License.
     <string name="set">Set</string>
     <string name="privacy_policy">https://ayayaq.github.io/DiscordBots-Help/privacypolicy.html</string>
     <string name="invite">Пригласить</string>
+    <string name="create_command">Сделать Комманду</string>
+    <string name="search">Поиск</string>
+    <string name="hide_token">Скрыть буквы токена</string>
+    <string name="hide_out">Скрыть Вывод Команды</string>
+    <string name="disable_server_member_intent">Выключить Server Member Intent</string>
+    <string name="lang">Язык</string>
+    <string name="other">Другое</string>
+    <string name="theme">Тема</string>
+    <string name="choose_theme">Выбрать тему</string>
+    <string name="require_administrator_privilege">Требуются Права Администратора</string>
+    <string name="hex_hint">Цвет Hex (FFFFFF)</string>
+    <string name="webhook_url">URL Вебхука</string>
+    <string name="name">Имя</string>
+    <string name="avatar_url">URL Картинка</string>
+    <string name="choose_message_type">Выбрать Тип Сообщения</string>
+    <string name="message">Сообщение</string>
+    <string name="author">Автор</string>
+    <string name="send">Отправить</string>
+    <string name="export">Экспорт</string>
+    <string name="import_item">Импорт</string>
 
 
 </resources>
