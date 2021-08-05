@@ -449,6 +449,26 @@ limitations under the License.
     <string name="set">Set</string>
     <string name="privacy_policy">https://ayayaq.github.io/DiscordBots-Help/privacypolicy.html</string>
     <string name="invite">Invite</string>
+    <string name="create_command">Create a Command</string>
+    <string name="search">Search</string>
+    <string name="hide_token">Hide token characters</string>
+    <string name="hide_out">Hide Command Output</string>
+    <string name="disable_server_member_intent">Disable Server Member Intent</string>
+    <string name="lang">Language</string>
+    <string name="other">Other</string>
+    <string name="theme">Theme</string>
+    <string name="choose_theme">Choose theme</string>
+    <string name="require_administrator_privilege">Require Administrator Privilege</string>
+    <string name="hex_hint">Hex Color (FFFFFF)</string>
+    <string name="webhook_url">Webhook URL</string>
+    <string name="name">Name</string>
+    <string name="avatar_url">Avatar URL</string>
+    <string name="choose_message_type">Choose Message Type</string>
+    <string name="message">Message</string>
+    <string name="author">Author</string>
+    <string name="send">Send</string>
+    <string name="export">Export</string>
+    <string name="import_item">Import</string>
 
 
 </resources>
