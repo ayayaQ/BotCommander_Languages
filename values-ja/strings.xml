@@ -258,7 +258,7 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
     <string name="avatar_url">アバターのURL</string>
     <string name="choose_message_type">メッセージのタイプを選択して</string>
     <string name="message">メッセージ</string>
-    <string name="author">Author</string>
+    <string name="author">著者</string>
     <string name="send">送信</string>
     <string name="export">書き出す</string>
     <string name="import_item">取り込む</string>
