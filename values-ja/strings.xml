@@ -262,6 +262,11 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
     <string name="send">送信</string>
     <string name="export">書き出す</string>
     <string name="import_item">取り込む</string>
+    <string name="import_commands">コマンドを取り込む</string>
+    <string name="import_desc">コマンドを取り込むと、現在コマンドを重ね書きます。まず、コマンドのコンフィグを作るといいですよ。</string>
+    <string name="export_commands">コマンドを書き出す</string>
+    <string name="export_warn">ファイル ストレージの権限なくしてコマンドを書き出せません。</string>
+    <string name="import_warn">ファイル ストレージの権限なくしてコマンドを取り込めません。</string>
 
 
 </resources>
