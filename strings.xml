@@ -469,6 +469,11 @@ limitations under the License.
     <string name="send">Send</string>
     <string name="export">Export</string>
     <string name="import_item">Import</string>
+    <string name="import_commands">Importing Commands</string>
+    <string name="import_desc">Importing commands will overwrite your currently loaded commands. It is recommended to first save them as a configuration or save them elsewhere.</string>
+    <string name="export_commands">Exporting Commands</string>
+    <string name="export_warn">Without storage management you can\'t export your commands.</string>
+    <string name="import_warn">Without storage management you can\'t import commands.</string>
 
 
 </resources>
