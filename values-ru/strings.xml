@@ -463,6 +463,11 @@ limitations under the License.
     <string name="send">Отправить</string>
     <string name="export">Экспорт</string>
     <string name="import_item">Импорт</string>
+    <string name="import_commands">Импорт комманд</string>
+    <string name="import_desc">Импорт комманд заменить все комманды которые уже загружены. Рекомендуем сохранить их как конфигурацию или где нибудь еще.</string>
+    <string name="export_commands">Экспорт комманд</string>
+    <string name="export_warn">Без управлением хранилищем вы не можете экспортировать ваши комманды.</string>
+    <string name="import_warn">Без управлением хранилище вы не можете импортировать комманды.</string>
 
 
 </resources>
