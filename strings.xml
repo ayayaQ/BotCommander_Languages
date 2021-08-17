@@ -474,6 +474,4 @@ limitations under the License.
     <string name="export_commands">Exporting Commands</string>
     <string name="export_warn">Without storage management you can\'t export your commands.</string>
     <string name="import_warn">Without storage management you can\'t import commands.</string>
-
-
 </resources>
