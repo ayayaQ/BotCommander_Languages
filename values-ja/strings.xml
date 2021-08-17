@@ -1,43 +1,13 @@
 <resources>
     <string name="app_name">Bot Commander</string>
 
-    <string-array name="helpTitle">
-
-        <item>"Creating the Bot"</item>
-        <item>"Command Keywords"</item>
-        <item>"Optimizing Bot Usage"</item>
-
-    </string-array>
-
-    <string-array name="helpText">
-
-        <item>"Creating a bot in discord is quite an easy process. First you need to go to\n\nhttps://discordapp.com/developers/applications/\n\nand click 'New Application'.\n\nAfter you give your bot a name, you will be able to change your bot profile image, bot descriptions and many more details.\n\nClick 'Bot' on the left sidebar. Then click 'Add Bot'.\n\nNow you can get your bot's token by using the 'Click to Reveal Token' button under your bot username or simply click 'Copy' and token will be copied to your clipboard directly."</item>
-        <item>"Keywords are used to create more dynamic messages for your commands. Here is a list of some of the available ones. More information will show you a full list.\n\n$name (compatible with all, except member leave and ban) - This mentions the user who triggered the command\n\n$channel - Adds the channel name to the message\n(Only compatible with type: Channel Message Received)\n\n$server - Adds the server name to the message\n(Not compatible with type: Private Message Received)\n\n$message - This adds the content of the message sent.\n(Not compatible with types: User Ban, Leave, Join, or Reaction Add)\n\n$rollnum(min,max) - This generates a random number where you replace min with the smallest number and max with the largest one.
-
-$date (Compatible with all) - The current date.
-
-$avatar (Compatible with all, except leave and ban) - The current avatar of the user who called the command.
-
-$defaultAvatar (Compatible with all, except leave and ban) - The default avatar of the user.
-
-$memberCount (Not compatible with pm received) - Gives the number of members currently in the server.
-
-$serverCreateTime (Not compatible with pm received) - Gives the time the server was created."</item>
-
-        More keywords available on help site.
-        <item>"It is important to know that the bot must be reset for command and status changes to take place.\n\nBy default when the app is in sleep mode the bot will not respond 100% of the time. If you want to allow the bot to function as intended while dozing you must disable battery optimization for the app.\n\n1. Go to your Settings app\n\n2. Find the app.\n\n3. Change the battery setting from 'Optimize' to 'Don't Optimize'\n\n*Steps may vary for different phones."</item>
-
-    </string-array>
-
     <string-array name="helpLinks">
-
         <item>"https://ayayaq.github.io/DiscordBots-Help/"</item>
         <item>"https://ayayaq.github.io/DiscordBots-Help/commands.html"</item>
         <item>"https://ayayaq.github.io/DiscordBots-Help/keywords.html"</item>
         <item>"https://ayayaq.github.io/DiscordBots-Help/creating.html"</item>
         <item>"https://ayayaq.github.io/DiscordBots-Help/tutorial.html"</item>
         <item>"https://ayayaq.github.io/DiscordBots-Help/webhooks.html"</item>
-
     </string-array>
 
     <string-array name="tabs">
@@ -50,14 +20,12 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
     </string-array>
 
     <string-array name="commandTypes">
-
         <item>メッセージを貰う</item>
         <item>プライベートメッセージ</item>
         <item>メンバーを参加する</item>
         <item>メンバーを追放</item>
         <item>メンバーをBAN</item>
         <item>リアクションを付ける</item>
-
     </string-array>
 
     <string-array name="webhookTypes">
@@ -131,7 +99,6 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
     <string name="message_require_for_action_private">プライベートメッセージのアクションにはメッセージが必要です。</string>
     <string name="command_required_for_type_channel">チャンネルメッセージのタイプにはコマンドが必要です。</string>
     <string name="command_required_for_type_private">プライベートメッセージのタイプにはコマンドが必要です。</string>
-    <string name="command_required">コマンドの記述が必要です。</string>
     <string name="action_required">アクションが必要です。</string>
     <string name="enter_a_token">トーケンを入力して下さい。</string>
     <string name="not_logged_in">ログインをしていません。</string>
@@ -156,7 +123,6 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
     <string name="kick">追放（コマンドあとメンバーをメンションして）</string>
     <string name="ban">BAN（コマンドあとメンバーをメンションして）</string>
     <string name="voice_mute">通知オフ（コマンドあとメンバーをメンションして）</string>
-    <string name="text_mute">Text Mute</string>
     <string name="home_hint">ホスティングしている時、ホストあとで作ったコマンドと編集したコマンドは働きません。再ホストして下さい。</string>
     <string name="connecting">ステータス：ログインしています</string>
     <string name="swipe_right_to_delete_commands">コマンドを削除なら、スワイプして。</string>
@@ -267,6 +233,4 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
     <string name="export_commands">コマンドを書き出す</string>
     <string name="export_warn">ファイル ストレージの権限なくしてコマンドを書き出せません。</string>
     <string name="import_warn">ファイル ストレージの権限なくしてコマンドを取り込めません。</string>
-
-
 </resources>
