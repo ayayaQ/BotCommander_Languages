@@ -234,4 +234,5 @@
     <string name="export_warn">Без управлением хранилищем вы не можете экспортировать ваши комманды.</string>
     <string name="import_warn">Без управлением хранилище вы не можете импортировать комманды.</string>
     <string name="must_be_a_valid_twitch_tv_url">Должна быть действительная twitch.tv ссылка</string>
+    <string name="webhooks">Вебхуки</string>
 </resources>

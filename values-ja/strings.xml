@@ -120,7 +120,7 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
     <string name="currently_hosting">ホスティングしています。</string>
     <string name="notif_action_stop">ストップする</string>
     <string name="logging_in">ログインしています。</string>
-    <string name="invalid_token">無効トーケン</string>
+    <string name="invalid_token">トーケンは無効です。</string>
     <string name="invalid_args">```エラー： 最大値は最小値よりも大きくなければなりません。```</string>
     <string name="invalid_nums">```エラー： 最大値や最小値は数字ではありません。```</string>
     <string name="undo">アンドゥ</string>
@@ -267,6 +267,8 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
     <string name="export_commands">コマンドを書き出す</string>
     <string name="export_warn">ファイル ストレージの権限なくしてコマンドを書き出せません。</string>
     <string name="import_warn">ファイル ストレージの権限なくしてコマンドを取り込めません。</string>
+    <string name="must_be_a_valid_twitch_tv_url">有効なtwitch.tvのURLのはずです。</string>
+    <string name="webhooks">Webhooks</string>
 
 
 </resources>

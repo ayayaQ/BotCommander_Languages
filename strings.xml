@@ -475,6 +475,6 @@ limitations under the License.
     <string name="export_warn">Without storage management you can\'t export your commands.</string>
     <string name="import_warn">Without storage management you can\'t import commands.</string>
     <string name="must_be_a_valid_twitch_tv_url">Must be a valid twitch.tv url</string>
-
+    <string name="webhooks">Webhooks</string>
 
 </resources>
