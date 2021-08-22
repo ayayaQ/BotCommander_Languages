@@ -205,7 +205,7 @@
     <string name="choose_configuration_name">Выбирите имя конфигурации</string>
     <string name="no_commands_hint">Нет комманд для создания конфигурации.</string>
     <string name="status_error">Не возможно иметь статус без слов!</string>
-    <string name="set">Set</string>
+    <string name="set">Поставить</string>
     <string name="privacy_policy">https://ayayaq.github.io/DiscordBots-Help/privacypolicy.html</string>
     <string name="invite">Пригласить</string>
     <string name="create_command">Сделать Комманду</string>
@@ -229,7 +229,7 @@
     <string name="export">Экспорт</string>
     <string name="import_item">Импорт</string>
     <string name="import_commands">Импорт комманд</string>
-    <string name="import_desc">Импорт комманд заменить все комманды которые уже загружены. Рекомендуем сохранить их как конфигурацию или где нибудь еще.</string>
+    <string name="import_desc">Импорт комманд заменит все комманды которые уже загружены. Рекомендуем сохранить их как конфигурацию или где нибудь еще.</string>
     <string name="export_commands">Экспорт комманд</string>
     <string name="export_warn">Без управлением хранилищем вы не можете экспортировать ваши комманды.</string>
     <string name="import_warn">Без управлением хранилище вы не можете импортировать комманды.</string>
