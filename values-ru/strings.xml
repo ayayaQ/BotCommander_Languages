@@ -235,4 +235,8 @@
     <string name="import_warn">Без управлением хранилище вы не можете импортировать комманды.</string>
     <string name="must_be_a_valid_twitch_tv_url">Должна быть действительная twitch.tv ссылка</string>
     <string name="webhooks">Вебхуки</string>
+    <string name="copy">Скопировать</string>
+    <string name="search_for_keywords">Поиск Ключевых Слов</string>
+    <string name="clear_search">Очистить Текст Поиска.</string>
+    <string name="search_commands">Поиск Ваших Комманд</string>
 </resources>
