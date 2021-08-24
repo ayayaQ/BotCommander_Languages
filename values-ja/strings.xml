@@ -269,6 +269,10 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
     <string name="import_warn">ファイル ストレージの権限なくしてコマンドを取り込めません。</string>
     <string name="must_be_a_valid_twitch_tv_url">有効なtwitch.tvのURLのはずです。</string>
     <string name="webhooks">Webhooks</string>
+    <string name="copy">コピー</string>
+    <string name="search_for_keywords">キーワードを探索して</string>
+    <string name="clear_search">探索クエリーを削除する。</string>
+    <string name="search_commands">コマンドを探索して</string>
 
 
 </resources>
